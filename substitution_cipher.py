@@ -1,7 +1,7 @@
 import random
 import copy
 
-# Random monoalphabetic substitution cipher
+# Random monoalphabetic substitution cipher - 26! ~ 10^26 possible combinations
 def encrypt(string):
     string = string.lower() # Transforms string to lower caser
     string = list(string)
